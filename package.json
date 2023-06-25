@@ -1,0 +1,23 @@
+{
+  "name": "5wd3-node-user_security-registeration-form_validation-basic_auth_sessions",
+  "version": "1.0.0",
+  "description": "https://stackoverflow.com/questions/16635159/how-to-decrypt-this-password-hash",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omardieh/5WD3-Node-User_Security-Registeration-Form_Validation-Basic_Auth_Sessions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omardieh/5WD3-Node-User_Security-Registeration-Form_Validation-Basic_Auth_Sessions/issues"
+  },
+  "homepage": "https://github.com/omardieh/5WD3-Node-User_Security-Registeration-Form_Validation-Basic_Auth_Sessions#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}

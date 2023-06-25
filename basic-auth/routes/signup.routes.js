@@ -11,6 +11,7 @@ const saltRounds = 10;
 router.get("/", (req, res, next) => {
   res.render("auth/signup");
 });
+
 router.post("/", (req, res, next) => {
   // console.log("The form data: ", req.body);
   const { username, email, password } = req.body;
@@ -24,12 +25,10 @@ router.post("/", (req, res, next) => {
 
   const regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
   if (!regex.test(password)) {
-    res
-      .status(500)
-      .render("auth/signup", {
-        errorMessage:
-          "Password needs to have at least 6 chars and must contain at least one number, one lowercase and one uppercase letter.",
-      });
+    res.status(500).render("auth/signup", {
+      errorMessage:
+        "Password needs to have at least 6 chars and must contain at least one number, one lowercase and one uppercase letter.",
+    });
     return;
   }
 

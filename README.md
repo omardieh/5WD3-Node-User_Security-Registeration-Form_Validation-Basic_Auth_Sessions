@@ -48,6 +48,11 @@ Node Form Validation
 
 # fourth
 
-Basic Authentication & Sessions
+Basic Authentication
 Sign up and login user
 Save cookie and pass it to client
+
+# fifth
+
+session management
+logout destroy session

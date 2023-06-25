@@ -28,8 +28,11 @@ app.locals.appTitle = `${capitalize(projectName)} created with IronLauncher`;
 const indexRoutes = require("./routes/index.routes");
 app.use("/", indexRoutes);
 
-const authRoutes = require("./routes/auth.routes");
-app.use("/signup", authRoutes);
+const signupRoutes = require("./routes/signup.routes");
+app.use("/signup", signupRoutes);
+
+const loginRoutes = require("./routes/login.routes");
+app.use("/login", loginRoutes);
 
 const userRoutes = require("./routes/user.routes");
 app.use("/users", userRoutes);

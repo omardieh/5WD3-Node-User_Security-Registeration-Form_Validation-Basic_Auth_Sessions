@@ -49,3 +49,4 @@ Node Form Validation
 # fourth
 
 Basic Authentication & Sessions
+Sign up and login user

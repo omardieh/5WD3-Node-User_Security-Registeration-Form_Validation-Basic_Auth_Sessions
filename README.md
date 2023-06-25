@@ -50,3 +50,4 @@ Node Form Validation
 
 Basic Authentication & Sessions
 Sign up and login user
+Save cookie and pass it to client

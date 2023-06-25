@@ -54,5 +54,4 @@ Save cookie and pass it to client
 
 # fifth
 
-session management
-logout destroy session
+Middleware

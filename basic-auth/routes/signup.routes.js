@@ -2,13 +2,14 @@ const express = require("express");
 const router = express.Router();
 const bcryptjs = require("bcryptjs");
 const mongoose = require("mongoose");
+const { isLoggedIn } = require("../middleware/route-guard.js");
 
 const User = require("../models/User.model");
 
 const saltRounds = 10;
 
 // root route : "/signup"
-router.get("/", (req, res, next) => {
+router.get("/", isLoggedIn, (req, res, next) => {
   res.render("auth/signup");
 });
 

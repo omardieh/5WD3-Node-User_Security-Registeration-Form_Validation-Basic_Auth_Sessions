@@ -23,3 +23,11 @@ for((i = 0; i < 10; i++)); do echo "iteration $i"; done
 
 Hashing in Action: Understanding bcrypt
 https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
+
+# SECOND
+
+Node User Registration basic-auth folder
+
+# THIRD
+
+Node Form Validation
